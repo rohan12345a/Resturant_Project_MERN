@@ -26,5 +26,5 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/blue-origin-hotel.git
+   git clone https://github.com/rohan12345a/Resturant_Project_MERN
    cd blue-origin-hotel
