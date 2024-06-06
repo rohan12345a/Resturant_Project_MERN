@@ -1,0 +1,48 @@
+
+
+.Menu {
+    text-align: center; 
+  }
+  
+  .day-list {
+    margin-bottom: 20px; 
+    margin-top: 20px;
+
+    background-image: linear-gradient(90deg,hsl(246, 54%, 93%), #f0f5f8);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .day-list button {
+    margin-right: 10px; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    background-color: #f0f0f0; 
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+  .day-list button:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  
+  .menu-image img {
+    border-radius: 20px; /* Set border radius for menu images */
+    margin-top: 20px; /* Add space above menu images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+

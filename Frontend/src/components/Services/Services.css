@@ -1,0 +1,62 @@
+.programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: linear-gradient(90deg,#2467db, #a0eeb1, #caf1e5, #b6c1f7, #f5b9f0, #ff7e5f); */
+    background-image: linear-gradient(90deg,#f5f8c5, #d4eff5);
+
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+}
+
+.programs img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.program{
+    flex-basis: 31%;
+    position: relative;
+
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .caption {
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(to right, rgba(0,15,152,0.3), rgba(0,15,152,0.6)); 
+      background-size: 200% 200%; 
+      animation: gradientAnimation 5s ease infinite; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      cursor: pointer;
+      opacity: 0;
+      padding-top: 70%;
+      transition: 0.4s;
+  }
+
+
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}

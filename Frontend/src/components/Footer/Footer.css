@@ -1,0 +1,34 @@
+
+.footer {
+    margin-top: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+    background-image: linear-gradient(90deg,#2467db, #a0eeb1, #caf1e5, #b6c1f7, #f5b9f0, #ff7e5f);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: white; /* Adjust text color as needed */
+  }
+  
+  
+  
